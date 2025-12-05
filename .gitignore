@@ -1,0 +1,11 @@
+
+.metadata/
+.settings/
+.vscode/
+.classpath
+.project
+bin/
+build/
+*.class
+.DS_Store
+Thumbs.db

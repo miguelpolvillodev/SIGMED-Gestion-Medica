@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>SIGMED - Gestión de Citas</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <div class="navbar">
+        <h2>SIGMED</h2>
+        <div class="user-info">
+            Usuario: Dr. House (Cardiología) | <a href="index.html">Salir</a>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <h3>Nueva Cita Médica</h3>
+
+        <form>
+            <div class="form-grid">
+                <div class="form-group">
+                    <label>ID Paciente</label>
+                    <input type="number" placeholder="Ej: 1045" required />
+                </div>
+
+                <div class="form-group">
+                    <label>Nombre Completo</label>
+                    <input type="text" placeholder="Autocompletado..." disabled style="background: #f9f9f9" />
+                </div>
+
+                <div class="form-group">
+                    <label>Especialidad</label>
+                    <select>
+                        <option>Medicina General</option>
+                        <option>Cardiología</option>
+                        <option>Traumatología</option>
+                        <option>Pediatría</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Fecha y Hora</label>
+                    <input type="datetime-local" required />
+                </div>
+
+                <div class="form-group full-width">
+                    <label>Motivo de la Consulta</label>
+                    <textarea placeholder="Describe brevemente los síntomas del paciente..."></textarea>
+                </div>
+
+                <div class="btn-container">
+                    <button type="button" class="btn btn-cancel" onclick="window.location.href='index.html'">
+                        Cancelar
+                    </button>
+                    <button type="button" class="btn btn-save" onclick="alert('¡Cita guardada en el prototipo!')">
+                        Guardar Cita
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
