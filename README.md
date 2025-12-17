@@ -30,4 +30,4 @@ Sistema de gestión corporativo para clínicas y centros de salud, diseñado par
 <img width="1913" height="915" alt="image" src="https://github.com/user-attachments/assets/13bb9191-c0e2-4248-bc2d-5f95c685c734" />
 
 ---
-*Desarrollado por Miguel Polvillo Acevedo - Proyecto de Formación Profesional (DAW)*
+*Proyecto en desarrollo por Miguel Polvillo Acevedo*
