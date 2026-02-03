@@ -16,7 +16,6 @@ public class Paciente {
         this.telefono = telefono;
     }
 
-    // Getters y Setters
     public int getIdPaciente() { return idPaciente; }
     public void setIdPaciente(int idPaciente) { this.idPaciente = idPaciente; }
 
